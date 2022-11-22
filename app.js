@@ -264,7 +264,7 @@ document.getElementById("left").addEventListener("click",moveleft);
         squares = squaresRemoved.concat(squares)
         squares.forEach(cell => grid.appendChild(cell))
         if(lines==1){
-           alert("Congratulations");
+
             location.replace("./photo.html");
             
             
